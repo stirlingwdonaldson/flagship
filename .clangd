@@ -1,0 +1,9 @@
+---
+CompileFlags:
+  # CMake currently writes compile_commands.json under ./build.
+  CompilationDatabase: build
+
+Diagnostics:
+  ClangTidy:
+    # clang-tidy reads .clang-tidy; this makes the clangd integration explicit.
+    Add: []
