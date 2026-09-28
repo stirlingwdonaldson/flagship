@@ -1,0 +1,14 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+
+# Keep the project defaults explicit and aligned with Google C++ style.
+ColumnLimit: 80
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+
+# Google style writes pointers/references next to the type: `int* value`.
+DerivePointerAlignment: false
+PointerAlignment: Left
+ReferenceAlignment: Left
